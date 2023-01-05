@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "futura hv bt"
+}
+
+.clear{
+	clear: both;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+.center{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 20px;
+	background-color: black;
+}
+
+.container-banner{
+	width: 100%;
+	height: 900px;
+	background-image: url("../imagens/skate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.container-banner img{
+	margin: 20px 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container{
+	width: 400px;					/*DETERMINA A LARGURA DO FORMULÁRIO*/
+	height: 60%;					/*DETERMINA A ALTURA DO FORMULÁRIO*/
+	background-color: yellow;		/*COR DE FUNDO*/
+	margin: 30px 35%; 					/*CENTRALIZA O FORMULÁRIO NA PAGINA*/
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.form-container h2{
+	font-weight: normal;		/*TIRA O NEGRITO / ITALICO / SUBLINHADO DA FONTE*/
+	padding: 30px 15px;			/*30PX RECUO NA VERTICAL / 15PX RECUO NAS LATERAIS*/
+	background-color: black;	/*COR DE FUNDO*/
+	color: white;				/*COR DA FONTE*/
+	font-size: 30px; 			/*DETERMINA O TAMANHO DA FONTE*/
+	text-align: center;
+	border-radius: 10px;
+}
+
+.form-container form{
+	padding: 15px;		/*15PX RECUO NAS LATERAIS*/
+	margin-top: 8px; 	/*8PX RECUO NA VERTICAL*/
+	background-color: yellow;
+}
+
+.form-container form p{
+	font-size: 14px;	/*DETERMINA O TAMANHO DA FONTE*/
+	color: #525252; 	/*COR DA FONTE*/
+	background-color: yellow;
+}
+
+.form-container form input[type=text]{
+	width: 100%;				/*DETERMINA A LARGURA DO CAMPO DE PREENCHIMENTO*/
+	height: 45px;				/*DETERMINA A ALTURA DO CAMPO DE PREENCHIMENTO*/
+	border: 1px solid #ccc;		/*DETERMINA A ESPEÇURA E A COR*/
+	padding-left: 10px;			/*DETERMINA RECUO 10PX DA ESQUERDA PRA DIREITA
+								DO CAMPO DE PREENCHIMENTO*/
+	background-color: white;
+	border-radius: 10px;							
+}
+
+
+.form-wraper:not(:first-child){	/*ELE TIRA O ESPAÇAMENTO ENTRE O TOPO E O
+								CAMPO DE PREENCHIMENTO*/
+	margin-top: 40px; 			/*DETERMINA O ESPAÇAMENTO ENTRE ALTURA
+								DO CAMPO DE PREENCHIMENTO*/
+}
+
+.form-container form input[type=submit]{
+	background-color: black;	/*DETERMINA A COR PRETA DO BOTÃO ENVIAR*/
+	text-transform: uppercase;	/*COLOCA A FONTE MAIUSCULA*/
+	color:	white;				/*COLOCA A FONTE NA COR BRANCA*/
+	width: 100%;				/*DETERMINA A LARGURA DO BOTÃO*/
+	height: 45px;				/*DETERMINA A ALTURA DO BOTÃO*/
+	cursor: pointer;			/*DETERMINA A MUDANÇA DO CURSOR DE SETA PARA MÃO*/
+	border: 0;					/*TIRA O FIO EM VOLTA DO BOTÃO*/
+	border-radius: 10px;
+}
+
+
+.form-wraper:last-child{	
+	margin-top: 20px; 		/*DETERMINA O ESPAÇAMENTO
+							ENTRE O BOTÃO E O TEXTO*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	padding: 30px 5%;		/*30PX ESPAÇAMENTO NA VERTICAL/3% ESPAÇAMENTO NA HORIZONTAL*/
+	background-color: black;/*COLOCA COR DE FUNTO PRETA*/
+	color: yellow;			/*COLOCA A COR DA FONTE EM BRANCO*/	
+}
+
+footer p:nth-of-type(1){
+	float: left;			/*FLUTUA O TEXTO ALINHADO A ESQUERDA*/
+	font-size: 18px;		/*DETERMINA O TAMANHO DA FONTE*/
+}
+
+footer p:nth-of-type(2){
+	float: right;			/*FLUTUA O TEXTO ALINHADO A DIREITA*/
+	font-size: 18px;		/*DETERMINA O TAMANHO DA FONTE*/
+}
